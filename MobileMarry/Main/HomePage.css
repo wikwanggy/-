@@ -1,0 +1,51 @@
+/*
+* 홈페이지 적용 CSS
+*
+*/
+*{
+  margin: 0;        /* 마진값 초기화 */
+  padding: 0;       /* 패딩값 초기화*/
+  box-sizing: border-box; /* 박스 영역은 테투리까지 지정*/
+}
+#Container{
+  width: 100%;
+  height: 100%;
+}
+/* Header 영역 */
+header{
+  display: flex ;
+  height: 80px;
+}
+#head_div_1{
+  flex : 1;
+}
+#head_div_2{
+  flex: 2;
+  text-align:right;
+}
+header div a{
+  padding-right: 20px;
+}
+
+
+/*Main 영역*/
+main{
+ background-color: beige;
+ display: flex;
+ height: 643px;
+}
+main div{
+  height: 20px;
+  width: 20px;
+}
+
+
+
+
+
+
+/*footer영역*/
+footer{
+  height: 30px;
+  background-color: aqua;
+}
